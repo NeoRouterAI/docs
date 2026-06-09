@@ -1,0 +1,14 @@
+node_modules
+.vitepress/dist
+.vitepress/cache
+.vitepress/sidebar.gen.ts
+quickstart.md
+pricing.md
+integration.md
+api-reference.md
+faq.md
+en/quickstart.md
+en/pricing.md
+en/integration.md
+en/api-reference.md
+en/faq.md

@@ -1,0 +1,140 @@
+:root {
+  --vp-c-brand-1: #4f46e5;
+  --vp-c-brand-2: #4338ca;
+  --vp-c-brand-3: #3730a3;
+  --vp-c-brand-soft: rgba(79, 70, 229, 0.12);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #6366f1 30%, #8b5cf6 70%);
+
+  /* NeoRouter theme - light */
+  --neo-bg: #ffffff;
+  --neo-bg-alt: #f8f9fc;
+  --neo-card-bg: #ffffff;
+  --neo-text-1: #111827;
+  --neo-text-2: #4b5563;
+  --neo-text-3: #9ca3af;
+  --neo-border: #e5e7eb;
+  --neo-accent: #4f46e5;
+  --neo-accent-soft: rgba(79, 70, 229, 0.08);
+  --neo-accent-border: rgba(79, 70, 229, 0.2);
+  --neo-accent-border-hover: rgba(79, 70, 229, 0.5);
+  --neo-card-shadow: 0 8px 32px rgba(79, 70, 229, 0.08);
+}
+
+.dark {
+  --vp-c-brand-1: #818cf8;
+  --vp-c-brand-2: #6366f1;
+  --vp-c-brand-3: #4f46e5;
+
+  /* NeoRouter theme - dark */
+  --neo-bg: #0a0a0f;
+  --neo-bg-alt: #0f0f1a;
+  --neo-card-bg: rgba(255, 255, 255, 0.03);
+  --neo-text-1: #ffffff;
+  --neo-text-2: rgba(255, 255, 255, 0.55);
+  --neo-text-3: rgba(255, 255, 255, 0.35);
+  --neo-border: rgba(255, 255, 255, 0.08);
+  --neo-accent: #818cf8;
+  --neo-accent-soft: rgba(99, 102, 241, 0.1);
+  --neo-accent-border: rgba(99, 102, 241, 0.25);
+  --neo-accent-border-hover: rgba(99, 102, 241, 0.5);
+  --neo-card-shadow: 0 8px 32px rgba(99, 102, 241, 0.12);
+}
+
+.VPHero .name {
+  font-weight: 700;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.vp-doc th,
+.vp-doc td {
+  white-space: normal;
+}
+
+@media (min-width: 768px) {
+  .VPNavBarTranslations {
+    display: flex !important;
+    align-items: center;
+  }
+}
+
+/* Navbar glassmorphism */
+.VPNav,
+.VPNav .VPNavBar,
+.VPNav .VPNavBar .wrapper,
+.VPNav .VPNavBar .container,
+.VPNavBar .content {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.VPNav {
+  background: rgba(255, 255, 255, 0.72) !important;
+  backdrop-filter: saturate(180%) blur(20px) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+.dark .VPNav {
+  background: rgba(10, 10, 15, 0.75) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Navbar layout adjustments */
+.VPNavBar .content-body {
+  max-width: 100% !important;
+}
+
+#local-search .search-bar,
+.DocSearch-Button {
+  min-width: 200px !important;
+}
+
+.VPNavBarSearch {
+  padding-left: 16px !important;
+}
+
+@media (min-width: 960px) {
+  .VPNavBar .title {
+    flex-shrink: 0;
+    width: auto !important;
+  }
+}
+
+/* Navbar logo always visible */
+.VPNavBarTitle .logo,
+.VPNavBarTitle .title {
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: auto !important;
+}
+
+/* Hide sidebar on home page */
+.Layout:has(.home-page) .VPSidebar,
+.Layout:has(.home-page) .VPDocAside {
+  display: none !important;
+}
+
+.Layout:has(.home-page) .VPContent .VPDoc .container {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.Layout:has(.home-page) .VPContent .VPDoc .content {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.Layout:has(.home-page) .VPDoc {
+  padding: 0 !important;
+}
+
+.Layout:has(.home-page) .VPContent {
+  padding-left: 0 !important;
+}
