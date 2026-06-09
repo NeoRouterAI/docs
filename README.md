@@ -1,4 +1,4 @@
-![NeoRouter.AI](public/og-image.png)
+![NeoRouter.AI](public/banner.png)
 
 # NeoRouter.AI Docs
 
@@ -12,6 +12,8 @@ NeoRouter.AI 官方开发者文档站，基于 [VitePress](https://vitepress.dev
 - **统一网关，一次接入** — 一个 Key 即可调用全部上架模型（Claude 系列、Codex 系列）
 - **精细管控，成本可观测** — 按 Key 划分额度与权限，输入、输出、缓存独立计费
 - **企业级保障** — 全天候高可用与自动故障转移，合同定价、月结授信、统一开票
+
+![NeoRouter.AI 产品全景](public/main.png)
 
 ## 本地开发
 
@@ -48,6 +50,10 @@ docs/
 ## 部署
 
 推送到 `main` 分支后，GitHub Actions 自动构建并部署到 GitHub Pages。
+
+## 企业宣传资料
+
+[下载 NeoRouter.AI 企业宣传 PPT](public/NeoRouter.AI-企业宣传.pptx)
 
 ## 联系
 
