@@ -1,4 +1,4 @@
-![NeoRouter.AI](public/banner.png)
+![NeoRouter.AI](./public/banner.png)
 
 # NeoRouter.AI Docs
 
