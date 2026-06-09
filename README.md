@@ -53,7 +53,7 @@ docs/
 
 ## 企业宣传资料
 
-[下载 NeoRouter.AI 企业宣传 PPT](public/NeoRouter.AI-企业宣传.pptx)
+[下载 NeoRouter.AI 企业宣传 PPT](https://github.com/NeoRouterAI/docs/raw/main/public/NeoRouter.AI-%E4%BC%81%E4%B8%9A%E5%AE%A3%E4%BC%A0.pptx)
 
 ## 联系
 
