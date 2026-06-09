@@ -201,8 +201,6 @@ mkdirSync(join(root, 'en'), { recursive: true })
 mkdirSync(join(root, '.vitepress'), { recursive: true })
 
 buildSidebarGen()
-writeFileSync(join(root, 'index.md'), buildHomePage('zh'))
-writeFileSync(join(root, 'en', 'index.md'), buildHomePage('en'))
 
 for (const doc of data) {
   const icon = extractIcon(doc.content_zh)
